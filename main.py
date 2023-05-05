@@ -50,8 +50,8 @@ class Calculator(QWidget):
         self.arrangements_m_label = QLabel('Количество мест (m):')
         self.arrangements_m_input = QLineEdit()
 
-        self.arrangements_btn = QPushButton('Без перестановок')
-        self.arrangements_repetition_btn = QPushButton('С перестановками')
+        self.arrangements_btn = QPushButton('Без повторений')
+        self.arrangements_repetition_btn = QPushButton('С повторениями')
 
         self.arrangements_result_label = QLabel('Результат:')
 
@@ -61,8 +61,8 @@ class Calculator(QWidget):
         self.combination_m_label = QLabel('Количество мест (m):')
         self.combination_m_input = QLineEdit()
 
-        self.combination_btn = QPushButton('Без перестановок')
-        self.combination_repetition_btn = QPushButton('С перестановками')
+        self.combination_btn = QPushButton('Без повторений')
+        self.combination_repetition_btn = QPushButton('С повторениями')
 
         self.combination_result_label = QLabel('Результат:')
 
